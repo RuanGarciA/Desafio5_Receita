@@ -1,0 +1,87 @@
+
+
+* {/*para todos elementos*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*contagem a partir da borda*/
+   
+    line-height: 26px;
+
+}
+ body {
+    
+    background: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+  }
+
+main{
+  
+    background: #FFFFFF;
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+
+
+}
+
+h1{
+    text-align: center;
+    font-size: 28px;
+
+    margin-bottom: 20px;
+    margin-top: 25px;
+
+}
+
+h3{
+    text-align: center;
+    font-size:  20px;
+    padding: 10px;
+
+
+}
+
+section{
+    padding: 20px;
+
+}
+
+li{
+
+    padding: 5px;
+    font-size: 16px;
+  
+
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #d51edb;
+
+
+}
+
+
+.recipe-image {
+  text-align: right;
+  font-size: 12px;
+  color: #8f8f8f;
+}
+
+.recipe-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
